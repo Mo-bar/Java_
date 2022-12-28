@@ -1,4 +1,4 @@
-package pk;
+package Basics;
 
 public class String_ {
     static public void main(String args[]) {
