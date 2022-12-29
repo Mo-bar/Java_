@@ -43,6 +43,6 @@ public class class_ {
         class_ obj1 = new class_();
         class_.NestedClass nc = obj1.new NestedClass(); 
         nc.Print();
-
+        System.out.println(nc.getClass());
     }
 }
