@@ -1,4 +1,4 @@
-package POO;
+package POO.classe;
 
 public class this_ {
     int n;

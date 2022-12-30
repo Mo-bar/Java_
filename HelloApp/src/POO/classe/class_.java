@@ -1,4 +1,4 @@
-package POO;
+package POO.classe;
 
 public class class_ {
     //? La classe est un modèle ou un prototype d'objet, et l'objet est une instance d'une classe.
