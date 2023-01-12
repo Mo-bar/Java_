@@ -10,6 +10,7 @@ public class _ArrayList extends ArrayList {
      ** ArrayList : 
      * La classe ArrayList est classe utilise pour stocker à des données de type objets
      * ArrayList<Object> list = new ArrayList<Object>(int Capacity);
+     * variableType object = new ObjectType;
      * 
      * La classe ArrayList accepte uniquement les types donnees Object, Elle n'accepet plus les primitifs type de donnees
      * comme 'int', 'float' etc.
@@ -20,6 +21,19 @@ public class _ArrayList extends ArrayList {
      *      - Double pour double.
      *      - Boolean pour boolean.
      *      - etc
+     ** Difference between list and arraylist in declaration java
+        Declaration Arraylist object as list, it's make changing implementation easier. for exemple when can change arraylist to linkedlist or hashset ...
+     *? Exemple
+        Collection<String> stringList = new ArrayList<String>();
+        //Client side
+        stringList = new LinkedList<String>();
+
+        stringList = new HashSet<String>();
+        //stringList = new HashSet<>(); java 1.7 and 1.8
+
+
+
+It is easy to change the implementation to 
      */
     public static void main(String args[]){
         List<Integer> list = new ArrayList<Integer>(12);
@@ -56,6 +70,7 @@ public class _ArrayList extends ArrayList {
         arr[3] = "sssssssss";
         System.out.println("________________");
 
+        //list.removeRange   to run removeRange methode we must change declared variable list to Arraylist cause , removeRange not commun between  ArrayList class and list interface
 
     }
     
