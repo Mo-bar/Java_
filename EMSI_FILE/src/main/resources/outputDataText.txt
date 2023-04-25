@@ -1,0 +1,16 @@
+Laptop{
+	Serial : 1,
+	Marque : 'Asus',
+	Operating system : 'Windows',
+	Size : MEDUIM
+},Laptop{
+	Serial : 2,
+	Marque : 'Dell',
+	Operating system : 'UBUNTO',
+	Size : LARGE
+},Laptop{
+	Serial : 3,
+	Marque : 'Mac book',
+	Operating system : 'Mac',
+	Size : SMALL
+},

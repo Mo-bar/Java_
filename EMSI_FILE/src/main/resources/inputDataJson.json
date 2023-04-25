@@ -1,0 +1,11 @@
+{
+  "Serial" : 1,
+  "Marque" : "Asus",
+  "Operating system" : "Windows",
+  "Size" : "MEDUIM",
+  "Config": [
+    "processor: 3",
+    "ram: 16",
+    "ssd: 256"
+  ]
+}

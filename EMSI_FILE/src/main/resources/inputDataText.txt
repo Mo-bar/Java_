@@ -1,0 +1,3 @@
+ Asus | Windows | MEDUIM 
+ Dell | UBUNTO | LARGE 
+ Mac book | Mac | SMALL
